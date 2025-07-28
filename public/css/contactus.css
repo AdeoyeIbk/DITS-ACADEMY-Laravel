@@ -1,0 +1,155 @@
+:root {
+  --primary-blue: #0d1b2a;
+  --dark-blue: #1b263b;
+  --light-blue: #415a77;
+  --text-color: white;
+}
+
+.contact-section {
+  display: flex;
+  padding: 80px 100px;
+  background-color: var(--primary-blue);
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.contact-form {
+  padding: 0rem 2rem;
+}
+
+.card-body {
+  justify-content: center;
+  gap: 0px;
+  width: 100%;
+}
+
+.form-control {}
+
+.left {
+  flex: 1;
+}
+
+.left h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: var(--light-blue);
+}
+
+.left span {
+  color: white;
+}
+
+.left p {
+  font-size: 1.1rem;
+  color: white;
+}
+
+.right {
+  flex: 1;
+  background-color: var(--dark-blue);
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.contact-form {
+  width: 100%;
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: white;
+}
+
+/* .contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 25px;
+  margin-top: 6px;
+  outline: none;
+  background-color: white;
+  color: black;
+}
+
+.contact-form textarea {
+  border-radius: 16px;
+} */
+
+.submit-btn {
+  background-color: var(--light-blue);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  margin-top: 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.submit-btn:hover {
+  /* background-color: white; */
+  color: var(--primary-blue);
+}
+
+.location-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--dark-blue);
+  padding: 60px 100px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.location-text {
+  flex: 1;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: white;
+}
+
+.location-text h3 {
+  font-size: 1.8rem;
+  color: var(--light-blue);
+  margin-bottom: 20px;
+}
+
+.map-container {
+  flex: 1;
+  min-height: 300px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+@media (max-width: 768px) {
+
+  .contact-section,
+  .location-section {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .right,
+  .left,
+  .map-container {
+    width: 100%;
+  }
+
+  .map-container {
+    height: 250px;
+  }
+}
+
+.socials {
+  transform: translateY(-0.2rem);
+  transition: var(--transitions);
+}

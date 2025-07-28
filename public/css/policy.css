@@ -1,0 +1,7 @@
+.main {
+  margin-top: 14rem;
+}
+
+ul > li {
+  color: var(--white);
+}

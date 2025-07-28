@@ -1,0 +1,17 @@
+.light-background {
+  background-color: var(--light-background-color);
+}
+
+
+.navbar {
+  padding-top: 1rem;
+  position: fixed;
+  background-color: transparent;
+  top: 0;
+  width: 100%;
+  transition: background-color .9s ease;
+}
+
+.navbar.scrolled {
+  background-color: rgb(26, 58, 95);
+}

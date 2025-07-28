@@ -1,0 +1,79 @@
+body {
+  overflow-x: hidden;
+}
+
+header {
+  background-color: transparent;
+}
+
+
+.hero {
+  background: url('../images/background/group-afro-americans-working-together.jpg') no-repeat;
+  background-size: cover;
+  z-index: 1;
+  height: 90vh;
+}
+
+.overlay-section {
+  background-color: rgba(0, 0, 0, 0.774);
+}
+.row {
+  z-index: 2;
+}
+
+#tutors-section {
+  display: flex;
+  height: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem 2.5rem;
+}
+
+.tutor-card {
+  max-width: 20rem;
+  margin: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding-bottom: 1rem;
+
+}
+
+.tutor-card img {
+  width: 100%;
+}
+
+.card-body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: .1rem;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  text-align: center;
+}
+
+
+.tutor-socials {
+  display: flex;
+  gap: 2rem;
+}
+
+.tutor-socials>a {
+  color: white;
+}

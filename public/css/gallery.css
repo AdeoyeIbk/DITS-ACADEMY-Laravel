@@ -1,0 +1,36 @@
+/* 
+main {
+  margin-top: 6rem;
+} */
+
+.hero {
+  background: url('../images/background/Gallery\ bgd.avif') no-repeat center center;
+  background-size: cover;
+  z-index: 1;
+  height: 90vh;
+}
+
+.overlay-section {
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hero>.row {
+  z-index: 3;
+}
+
+.card {
+  height: auto;
+  width: auto;
+}
+
+.card-img-top {
+  transition: all 1s ease-in-out;
+  height: 15rem;
+  width: 100%;
+}
+
+.card-img-top:hover {
+  z-index: 20;
+  transform: scale(1.5);
+}
