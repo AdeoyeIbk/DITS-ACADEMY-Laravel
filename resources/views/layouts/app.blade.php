@@ -46,7 +46,7 @@
 </head>
 
 <body>
-  <section class="hero col-12">
+  <section class="  {{ request()->is('courses') ? "" : "hero" }} col-12">
     <!-- Adds the overlay section only on the specified pages. -->
     @if (request()->is('/') || request()->is('about') || request()->is('gallery'))
     <div class="overlay-section"></div>
