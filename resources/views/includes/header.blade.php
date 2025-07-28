@@ -16,10 +16,14 @@
     {{ request()->is('courses') ? "Courses -" : "" }}
     {{ request()->is('faq') ? "FAQ -" : "" }}
     {{ request()->is('live-classes') ? "Live Classes -" : "" }}
-    {{ request()->is('invite') ? "Welcome -" : "" }}{{ request()->is('login') ? "Login -" : "" }}{{ request()->is('invite') ? "Welcome -" : "" }}{{ request()->is('privacy-policy') ? "Privacy Policy -" : "" }}{{ request()->is('invite') ? "Welcome -" : "" }}{{ request()->is('login') ? "Login -" : "" }}{{ request()->is('invite') ? "Welcome -" : "" }}{{ request()->is('privacy-policy') ? "Privacy Policy -" : "" }}
+    {{ request()->is('invite') ? "Welcome -" : "" }}
+    {{ request()->is('login') ? "Login -" : "" }}
+    {{ request()->is('privacy-policy') ? "Privacy Policy -" : "" }}
+    {{ request()->is('login') ? "Login -" : "" }}
     {{ request()->is('terms-and-conditions') ? "Terms and Conditions -" : "" }}
     {{ request()->is('tutors') ? "Tutors -" : "" }}
-    {{ request()->is('testimonials') ? "Testimonials -" : "" }}{{ request()->is('') ? "Home -" : "" }}
+    {{ request()->is('testimonials') ? "Testimonials -" : "" }}
+    {{ request()->is('') ? "Home -" : "" }}
 
     DITS ACADEMY
   </title>
