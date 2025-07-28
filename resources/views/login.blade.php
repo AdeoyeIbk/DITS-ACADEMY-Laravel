@@ -10,7 +10,7 @@
   <main>
     <div class="box">
     <!-- <img src="../images/illustrations/undraw_messaging.svg" alt="Illustration" class="illustration" /> -->
-    <img src="../images/Logos/DITS Academy Logo.webp" alt="DITS logo" class="logo" />
+    <img src="{{ asset('images/Logos/DITS Academy Logo.webp') }}" alt="DITS logo" class="logo" />
     <h3 class="title-page">Login</h3>
 
     <form method="POST" action="">
