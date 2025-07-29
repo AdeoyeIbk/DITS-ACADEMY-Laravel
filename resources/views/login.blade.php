@@ -10,7 +10,8 @@
   <main>
     <div class="box">
     <!-- <img src="../images/illustrations/undraw_messaging.svg" alt="Illustration" class="illustration" /> -->
-    <img src="{{ asset('images/Logos/DITS Academy Logo.webp') }}" alt="DITS logo" class="logo" />
+    <a href="{{ route('home') }}"><img src="{{ asset('images/Logos/DITS Academy Logo.webp') }}" alt="DITS logo"
+      class="logo" /></a>
     <h3 class="title-page">Login</h3>
 
     <form method="POST" action="">
@@ -32,7 +33,7 @@
       </div>
       </div>
       <button type="submit" class="create-btn">Login</button>
-      <p class="note">Forgot your password? <a href="">Reset it</a></p>
+      <p class="note">Forgot your password? <a href="{{ route('Reset-Password') }}">Reset it</a></p>
     </form>
   </main>
 @endsection

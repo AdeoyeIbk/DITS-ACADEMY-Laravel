@@ -18,6 +18,7 @@
     {{ request()->is('live-classes') ? "Live Classes -" : "" }}
     {{ request()->is('invite') ? "Welcome -" : "" }}
     {{ request()->is('login') ? "Login -" : "" }}
+    {{ request()->is('Reset-Password') ? "Reset Password -" : "" }}
     {{ request()->is('privacy-policy') ? "Privacy Policy -" : "" }}
     {{ request()->is('login') ? "Login -" : "" }}
     {{ request()->is('terms-and-conditions') ? "Terms and Conditions -" : "" }}
@@ -50,7 +51,8 @@
 </head>
 
 <body>
-  <section class="  {{ request()->is('about') || request()->is('/') || request()->is('tutors')|| request()->is('gallery') ? "hero" : "" }} col-12">
+  <section
+    class="  {{ request()->is('about') || request()->is('/') || request()->is('tutors') || request()->is('gallery') ? "hero" : "" }} col-12">
     <!-- Adds the overlay section only on the specified pages. -->
     @if (request()->is('/') || request()->is('about') || request()->is('gallery') || request()->is('tutors'))
     <div class="overlay-section"></div>

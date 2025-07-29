@@ -89,7 +89,9 @@ Route::get('/live-classes', function () {
 Route::get('/login', function () {
     return view('login');
 })->name('login');
-
+Route::get('/Reset-Password', function () {
+    return view('Reset-Password');
+})->name('Reset-Password');
 Route::get('/privacy-policy', function () {
     return view('privacy-policy');
 })->name('privacy-policy');

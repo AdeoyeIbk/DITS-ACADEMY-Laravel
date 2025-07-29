@@ -9,7 +9,8 @@
   <main>
     <div class="box">
     <!-- <img src="../images/illustrations/undraw_messaging.svg" alt="Illustration" class="illustration" /> -->
-    <img src="{{ asset('images/Logos/DITS Academy Logo.webp') }}" alt="DITS logo" class="logo" />
+    <a href="{{ route('home')}}"><img src="{{ asset('images/Logos/DITS Academy Logo.webp') }}" alt="DITS logo"
+      class="logo" /></a>
     <h3 class="title-page">Complete Your Account Setup</h3>
 
     <div class="|">
