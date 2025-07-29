@@ -48,15 +48,15 @@
         <form class="contact-form">
         <div class="mb-3">
           <label for="name" class="form-label">Name</label>
-          <input type="text" id="name" class="form-control" placeholder="Your name" required>
+          <input type="text" id="name" class="form-control fs-5" placeholder="Your name" required>
         </div>
         <div class="mb-3">
           <label for="email" class="form-label">Email Address</label>
-          <input type="email" id="email" class="form-control" placeholder="Your email" required>
+          <input type="email" id="email" class="form-control fs-5" placeholder="Your email" required>
         </div>
         <div class="mb-3">
           <label for="message" class="form-label">Message</label>
-          <textarea id="message" class="form-control" rows="4" placeholder="Your message" required></textarea>
+          <textarea id="message" class="form-control fs-5" rows="4" placeholder="Your message" required></textarea>
         </div>
         <button type="submit" class="btn btn-primary w-100">Send Message</button>
         </form>
