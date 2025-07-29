@@ -50,7 +50,7 @@
 </head>
 
 <body>
-  <section class="  {{ request()->is('about') || request()->is('/') || request()->is('tutors') ? "hero" : "" }} col-12">
+  <section class="  {{ request()->is('about') || request()->is('/') || request()->is('tutors')|| request()->is('gallery') ? "hero" : "" }} col-12">
     <!-- Adds the overlay section only on the specified pages. -->
     @if (request()->is('/') || request()->is('about') || request()->is('gallery') || request()->is('tutors'))
     <div class="overlay-section"></div>
