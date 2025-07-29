@@ -105,7 +105,7 @@
     <h2 class="mb-4">Join Our Team of Experts</h2>
     <p class="mb-4">Are you passionate about teaching and sharing your expertise? Join DITS Academy and inspire the
       next generation of tech professionals. Together, we can shape the future of education in Nigeria and beyond.</p>
-    <a href="{{ route('become-a-tutor') }}" class="btn btn-light btn-lg">Join Our Team</a>
+    <a href="{{ route('tutors') }}" class="btn btn-light btn-lg">Join Our Team</a>
     </div>
   </section>
 @endsection
