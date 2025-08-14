@@ -56,7 +56,7 @@ Route::get('/about', function () use ($testimonials) {
     return view('about', ['testimonials' => $testimonials]);
 })->name('about');
 
-Route::get('/attendance', function () {
+Route::get('/attendance', action: function () {
     return view('attendance');
 })->name('attendance');
 

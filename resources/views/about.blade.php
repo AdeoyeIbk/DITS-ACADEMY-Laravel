@@ -325,7 +325,7 @@
 
   <script>
     // Count up animation for achievement numbers
-    function animateCountUp(element, target, duration = 1500) {
+    function animateCountUp(element, target, duration = 3500) {
     let start = 0;
     let startTime = null;
     target = parseInt(target, 10);
