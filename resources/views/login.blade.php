@@ -15,7 +15,6 @@
     <h3 class="title-page">Login</h3>
 
     <form method="POST" action="">
-      @csrf
       <div class="box-1">
       <div class="box-level">
         <label class="form-label" for="email">Email</label>

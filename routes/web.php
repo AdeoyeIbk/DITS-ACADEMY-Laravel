@@ -107,3 +107,6 @@ Route::get('/testimonials', function () use ($testimonials) {
 Route::get('/tutors', function () {
     return view('tutors');
 })->name('tutors');
+Route::get('/student-profile', function () {
+    return view('student-profile');
+})->name('student-profile');

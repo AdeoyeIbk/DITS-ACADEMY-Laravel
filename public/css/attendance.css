@@ -9,9 +9,43 @@ body {
   height: 100vh
 }
 
-/* .attendance-table {
-  height: 50vh;
-} */
+.name-and-profile-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.profile-image {
+  border-radius: 50%;
+  height: 3rem;
+  width: auto;
+}
+
+.profile-image-container {
+  position: relative;
+  width: 3rem;
+  height: auto;
+}
+
+
+.edit-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(131, 126, 126);
+  font-size: 1.6rem;
+  opacity: 0;
+  transition: opacity 0.2s ease-in;
+}
+
+.profile-image-container:hover .edit-icon {
+  opacity: 1;
+  display: block;
+
+}
+
+
 
 @media (max-width: 600px) {
   .heading {

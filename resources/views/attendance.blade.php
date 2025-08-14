@@ -14,11 +14,21 @@
     </a>
     <h1 class="h4 mb-0 text-center">DITS Academy Student Attendance</h1>
     </div>
+
   </header>
   <main class="container my-5">
     <section class="mb-4 container text-center">
     <div class="heading">
-      <h2 class="mb-3">Hey, Timothy</h2>
+      <div class="name-and-profile-container">
+      <a href="{{route('student-profile')}}">
+        <div class="profile-image-container"><span class="material-symbols-outlined edit-icon">
+          edit
+        </span><img src="{{ asset('images/profiles/default profile image.jpeg') }}" class="profile-image"
+          alt="Student's Profile Image"> <!-- should we add image? -->
+        </div>
+      </a>
+      <h2>Hey, Timothy</h2>
+      </div>
       <div class="dropdown">
       <span class="me-2 text-white">Course:</span>
       <a class="btn btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
