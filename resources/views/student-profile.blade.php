@@ -10,9 +10,11 @@
   <main>
     <div class="box">
     <div class="top">
+      <a href="{{ route("attendance") }}">
       <span class="material-symbols-outlined back-icon">
-      chevron_backward
+        chevron_backward
       </span>
+      </a>
       <h3 class=" title-page">Edit Profile</h3>
     </div>
 
