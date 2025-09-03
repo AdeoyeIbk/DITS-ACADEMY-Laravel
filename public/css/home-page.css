@@ -500,13 +500,13 @@ button {
 
 .stack {
 	width: fit-content;
-	height: auto;
+	height: 100%;
 }
 
 .image-stack {
 	position: relative;
-	height: 20rem;
-	width: 20rem;
+	height: 19.3125rem;
+	width: 21rem;
 }
 
 .stack-heading {

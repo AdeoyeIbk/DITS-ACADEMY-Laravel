@@ -110,3 +110,6 @@ Route::get('/tutors', function () {
 Route::get('/student-profile', function () {
     return view('student-profile');
 })->name('student-profile');
+Route::get('/error', function () {
+    return view('404');
+})->name('error');

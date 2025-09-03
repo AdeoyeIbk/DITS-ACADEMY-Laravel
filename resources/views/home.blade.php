@@ -348,39 +348,30 @@
     projects. At DITS Academy, we foster
     creativity and innovation.</p>
     <div class="row stack-container">
-    <!-- stack 1 -->
-    <div class="stack col-md-4 fade-element">
+      <!-- stack 1 -->
+      <div class="stack col-md-4 fade-element">
       <h5 class="stack-heading">Classrooms</h5>
       <div class=" image-stack">
-      <img src="{{asset('images/gallery/data analysis class.webp')}}" class="img-fluid img-1 img"
+        <img src="{{asset('images/gallery/data analysis class.webp')}}" class="img-fluid img-1 img"
         alt="data analysis class in session" loading="lazy">
-      <img src="{{asset('images/gallery/web development class.webp')}}" class="img-fluid img-2 img"
+        <img src="{{asset('images/gallery/web development class.webp')}}" class="img-fluid img-2 img"
         alt="web development class in session" loading="lazy"> <img
         src="{{asset('images/gallery/students taking test.webp')}}" class="img-fluid img-3 img"
         alt="students taking tests" loading="lazy">
       </div>
-    </div>
-    <!-- stack 2 -->
-    <div class="stack col-md-4 fade-element">
+      </div>
+      <!-- stack 2 -->
+      <div class="stack col-md-4 fade-element">
       <h5 class="stack-heading">Graduation</h5>
       <div class="image-stack ">
-      <img src="{{asset('images/gallery/graduation address.webp')}}" class="img-fluid img-1 img"
+        <img src="{{asset('images/gallery/graduation address.webp')}}" class="img-fluid img-1 img"
         alt="CEO addressing the graduants" loading="lazy">
-      <img src="{{asset('images/gallery/graduation group picture.webp')}}" class="img-fluid img-2 img"
+        <img src="{{asset('images/gallery/graduation group picture.webp')}}" class="img-fluid img-2 img"
         alt="graduation ceremony group picture" loading="lazy">
-      <img src="{{asset('images/gallery/graduation.webp')}}" class="img-fluid img-3 img"
+        <img src="{{asset('images/gallery/graduation.webp')}}" class="img-fluid img-3 img"
         alt="graduation group picture 2">
       </div>
-    </div>
-    <!-- stack 3 -->
-    <!-- <div class="stack col-md-4 fade-element">
-      <h5 class="stack-heading">Student Projects</h5>
-      <div class="image-stack">
-      <img src="src/images/gallery/image8.avif" class="img-fluid img-1 img" alt="Student Project"><img
-      src="src/images/gallery/image8.avif" class="img-fluid img-2 img" alt="Student Project" loading="lazy"><img
-      src="src/images/gallery/image9.avif" class="img-fluid img-3 img" alt="Student Project" loading="lazy">
       </div>
-      </div> -->
     </div>
     <a href="{{route('gallery')}}" class="mt-5"><button class="btn btn-primary">View all</button></a>
   </section>

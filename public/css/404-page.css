@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99vh;
+  padding: 2rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem;
+  gap: 1rem;
+}
+
+h1 {
+  font-size: 20rem;
+  color: rgb(153, 148, 148);
+  margin-bottom: 0px;
+}
+
+.error-message {
+  text-align: center;
+  font-size: 1.25rem;
+  max-width: 40rem;
+}
+
+.action-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+button {
+  padding: .4rem .8rem;
+}
+
+@media (max-width: 520px) {
+  h1 {
+    font-size: 12rem;
+  }
+
+  .content {
+    padding: 2rem;
+    gap: .7rem;
+  }
+}
